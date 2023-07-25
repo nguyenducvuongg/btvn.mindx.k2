@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.card-container{
+    display: flex;
+    width: 63%;
+    justify-content: space-between;
+    
+}
+.card{
+    width: 32%;
+    background-color: white;
+}
+.Img{
+    width: 100%;
+}
+

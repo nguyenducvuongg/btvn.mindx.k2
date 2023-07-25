@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.btn-right{
+    background-color: brown;
+}
+.btn-left{
+    background-color: aqua;
+}
