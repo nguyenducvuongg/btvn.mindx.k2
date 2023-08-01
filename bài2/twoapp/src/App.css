@@ -6,18 +6,21 @@
  
   
 }
-body{
-  background-color: black;
-}
-.App{
+.header-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: black;
   
 }
 h1{
   color: aqua;
+}
+.card-data{
+  display: flex;
+    width: 63%;
+    justify-content: space-between;
 }
 .card{
   background-color: white;

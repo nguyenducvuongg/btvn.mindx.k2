@@ -30,12 +30,12 @@ const Modal = ({close}) => {
                     <h2>Tickets</h2>
                     <div class="inputbox">
                         <ion-icon name="mail-outline"></ion-icon>
-                        <input type="number" required name="tickets" value={inputValues.tickets} onChange={handleInputChange} />
+                        <input type="number" required name="tickets" onChange={handleInputChange} />
                         <label for="">Tickets,$3 per one</label>
                     </div>
                     <div class="inputbox">
                         <ion-icon name="lock-closed-outline"></ion-icon>
-                        <input type="email" required  name="email" value={inputValues.email} onChange={handleInputChange}/>
+                        <input type="email" required  name="email"  onChange={handleInputChange}/>
                         <label for="">Send To</label>
                     </div>
                     <div class="forget">
